@@ -4,7 +4,7 @@
 
 |key|value|
 |---|-----|
-|Name|南 優也 (みなみ ゆうや))|
+|Name|南 優也 (みなみ ゆうや)|
 |Twitter|[@mooonyman](https://mobile.twitter.com/mooonyman)|
 
 ## スキル
