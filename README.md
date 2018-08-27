@@ -23,12 +23,12 @@
     - [yuya373/manga-viewer](https://github.com/yuya373/manga-viewer)
   - Chrome extension
     - [yuya373/memo](https://github.com/yuya373/memo)
-- Scala
+- Scala (v2.11)
   - Finagle
   - Finch
   - TwitterServer
 - Emacs Lisp
-  - プラグインを作ったり
+  - プラグイン
     - [yuya373/emacs-slack: slack client for emacs](https://github.com/yuya373/emacs-slack)
     - [yuya373/gh-viewer](https://github.com/yuya373/gh-viewer)
     - [yuya373/emacs-github-graphql-client](https://github.com/yuya373/emacs-github-graphql-client)
@@ -39,7 +39,7 @@
   - Dropboxに保存するメモ帳
     - [yuya373/Note](https://github.com/yuya373/Note)
 - Rust
-  - 本やチュートリアル読んで写経したり
+  - 本やチュートリアルの写経
     - [yuya373/programming-rust](https://github.com/yuya373/programming-rust)
     - [yuya373/trpl](https://github.com/yuya373/trpl)
     - [yuya373/line-chat](https://github.com/yuya373/line-chat)
@@ -47,7 +47,7 @@
 - Unity, C#
   - チュートリアル
     - [yuya373/Roll-a-Ball](https://github.com/yuya373/Roll-a-Ball)
-  - Oculus Go買ったので動かしてみたやつ
+  - Oculus Go用のシューティングアプリ
     - [yuya373/VRShootingGame](https://github.com/yuya373/VRShootingGame)
 
 ### 言語
