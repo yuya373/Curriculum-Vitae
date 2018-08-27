@@ -50,35 +50,65 @@
   - Oculus Go用のシューティングアプリ
     - [yuya373/VRShootingGame](https://github.com/yuya373/VRShootingGame)
 
-### 言語
-
-### フレームワーク
-
-- Framework名
-  - 関わった製品やポートフォリオがあればそのリンクを貼る
-
-### その他
-
-- 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
+## やったことはないが興味があるもの
+- iOSアプリ開発
+- ミドルウェア開発
 
 ## 職務経歴
 
-### yyyy/mm - : 会社名
+### 2016/01 - : 株式会社Rebase
+職務: Webアプリケーションエンジニア
+環境: Ruby(2.x), Ruby on Rails(4.x), PostgreSQL(RDS), Redis(ElastiCache), Webpack, React, Redux, ECS, Scala(2.11), Finagle, Finch, Elastic Beanstalk, Amazon Elastic Search Service
 
-職務: Webアプリケーションエンジニア（例）
+#### Webアプリケーションの開発
+- [貸し会議室・レンタルスペースの検索・予約なら | インスタベース](https://www.instabase.jp/)の開発
+  - バックエンド
+    - Ruby, Ruby on Rails
+    - Sidekiq, AWS Batchを使った非同期,バッチ処理
+  - フロントエンド
+    - Haml, Sass
+    - React, Redux, Immutable.js等でのSPA、コンポーネント開発
+      - 検索ページ
+        - https://www.instabase.jp/search
+      - スペース登録、編集フォーム
+      - トップページ
+       - https://www.instabase.jp
+  - CI, CD
+    - Circle CI
+    - eslint, stylelintでリント
+    - Rspec, capybara等でテスト
+    - masterブランチのテストが通ればproduction環境にdeploy
+  - その他
+    - webpackのアップデート(1.x -> 4.x)
+    - フロントエンドのパフォーマンスチューニング
+      - オフスクリーンイメージの遅延読み込み
+      - jsの分割
+      - Reactコンポーネントのパフォーマンスチューニング
+    - バックエンドのパフォーマンスチューニング
+      - N+1クエリの解消
+      - indexの追加
+      - Hamlテンプレートのキャッシュ
+  
+#### 検索APIサーバーの開発
+- 主に[検索ページ](https://www.instabase.jp/search)で使われるAPIサーバーの開発
+  - Scala, Finagle, Finch
+  - 管理画面はTwitterServer
+  - JSONを返す
+  - Web(XHR)、Rubyからアクセス
+  - DB
+    - PostgreSQL(RDS)
+    - Elastic Search(以下、ES)
+      - ES内ドキュメントの検索、更新、追加、削除
+  - API
+    - 日時による検索
+    - 緯度・経度による検索
+    - フリーワードによる検索
+    - 都道府県、設備等の条件による検索
 
-#### 職務内容の名前（レストラン検索とか）
-
-- 職務内容の詳細を箇条書きでかく
-
-#### 職務内容の名前（レストラン検索とか）
-
-- 職務内容の詳細を箇条書きでかく
-
-### yyyy/mm - yyyy/mm: （前職の企業名。あれば）
-
+### 2015/08 - 2016/12: 株式会社アカツキ
 職務: サーバーサイドエンジニア
+環境: Ruby(2.x), Ruby on Rails(4.x), MySQL(RDS), Redis(ElastiCache), CloudFront, EC2等
 
-#### 職務内容の名前（レストラン検索とか）
-
-- 職務内容の詳細を箇条書きでかく
+#### ゲームAPIサーバーの開発
+- スマートフォンゲームのAPI開発
+- ガチャ、ログインボーナス、インゲーム開始/終了、キャラクター合成/進化等
