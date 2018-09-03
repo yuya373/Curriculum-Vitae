@@ -1,0 +1,14 @@
+{
+  "name": "Curriculum-Vitae",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yuya373/Curriculum-Vitae.git",
+  "author": "Yuya Minami <yuya373@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-pdf": "^9.0.0"
+  },
+  "scripts": {
+    "build": "markdown-pdf -s styles/gh.css README.md"
+  }
+}
