@@ -7,6 +7,7 @@
 |Name|南 優也 (みなみ ゆうや)|
 |Twitter|[@mooonyman](https://mobile.twitter.com/mooonyman)|
 |GitHub|[yuya373 (Yuya Minami)](https://github.com/yuya373)|
+|はてなブックマーク|[mooonymann](http://b.hatena.ne.jp/mooonymann/)|
 
 ## スキル
 
