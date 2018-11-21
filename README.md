@@ -66,6 +66,9 @@
   - バックエンド
     - Ruby, Ruby on Rails
     - Sidekiq, AWS Batchを使った非同期,バッチ処理
+    - Google Calendar連携
+    - 決済を非同期にする
+    - 検索時の合計料金
   - フロントエンド
     - Haml, Sass
     - React, Redux, Immutable.js等でのSPA、コンポーネント開発
@@ -74,21 +77,15 @@
       - スペース登録、編集フォーム
       - トップページ
        - https://www.instabase.jp
-  - CI, CD
-    - Circle CI
-    - eslint, stylelintでリント
-    - Rspec, capybara等でテスト
-    - masterブランチのテストが通ればproduction環境にdeploy
-  - その他
-    - webpackのアップデート(1.x -> 4.x)
     - フロントエンドのパフォーマンスチューニング
       - オフスクリーンイメージの遅延読み込み
       - jsの分割
       - Reactコンポーネントのパフォーマンスチューニング
-    - バックエンドのパフォーマンスチューニング
-      - N+1クエリの解消
-      - indexの追加
-      - Hamlテンプレートのキャッシュ
+    - webpackのアップデート(1.x -> 4.x)
+  - CI, CD
+    - Circle CI
+    - eslint, stylelintでリント
+    - Rspec, capybara等でテスト
   
 #### 検索APIサーバーの開発
 - 主に[検索ページ](https://www.instabase.jp/search)で使われるAPIサーバーの開発
