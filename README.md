@@ -35,17 +35,20 @@
     - [yuya373/emacs-github-graphql-client](https://github.com/yuya373/emacs-github-graphql-client)
     - [yuya373/emacs-bq: emacs "bq" command interface](https://github.com/yuya373/emacs-bq)
 - Swift
+  - 実務経験なし
   - 公式チュートリアル + α
     - [yuya373/FoodTracker](https://github.com/yuya373/FoodTracker)
   - Dropboxに保存するメモ帳
     - [yuya373/Note](https://github.com/yuya373/Note)
 - Rust
+  - 実務経験なし
   - 本やチュートリアルの写経
     - [yuya373/programming-rust](https://github.com/yuya373/programming-rust)
     - [yuya373/trpl](https://github.com/yuya373/trpl)
     - [yuya373/line-chat](https://github.com/yuya373/line-chat)
     - [yuya373/rust_dns](https://github.com/yuya373/rust_dns)
 - Unity, C#
+  - 実務経験なし
   - チュートリアル
     - [yuya373/Roll-a-Ball](https://github.com/yuya373/Roll-a-Ball)
   - Oculus Go用のシューティングアプリ
