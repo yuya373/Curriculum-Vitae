@@ -53,6 +53,12 @@
     - [yuya373/Roll-a-Ball](https://github.com/yuya373/Roll-a-Ball)
   - Oculus Go用のシューティングアプリ
     - [yuya373/VRShootingGame](https://github.com/yuya373/VRShootingGame)
+- Go
+  - 実務経験なし
+  - [O'Reilly Japan - Go言語でつくるインタプリタ](https://www.oreilly.co.jp/books/9784873118222/)
+    - [yuya373/concurrency](https://github.com/yuya373/concurrency)
+  - [O'Reilly Japan - Go言語による並行処理](https://www.oreilly.co.jp/books/9784873118468/)
+    - [yuya373/monkey](https://github.com/yuya373/monkey)
 
 ## やったことはないが興味があるもの
 - iOSアプリ開発
