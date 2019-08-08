@@ -12,13 +12,20 @@
 ## スキル
 
 - Ruby (v1.9 ~ v2.x)
-  - Ruby on Rails (v3 ~ v4)
+  - Ruby on Rails (v3 ~ v5)
+- TypeScript
+  - React
+  - ReactNative
+    - Expo(v33.0.3)
+  - Redux
+    - redux-thunk
 - JavaScript
   - webpack (v1 ~ v4)
-  - babel (v??? ~ v6)
-  - React (v??? ~ v16)
+  - babel
+  - React
   - react-router (v3 ~ v4)
   - Redux
+    - redux-saga
   - Immutable.js
   - Electron
     - [yuya373/manga-viewer](https://github.com/yuya373/manga-viewer)
@@ -60,13 +67,46 @@
   - [O'Reilly Japan - Go言語による並行処理](https://www.oreilly.co.jp/books/9784873118468/)
     - [yuya373/monkey](https://github.com/yuya373/monkey)
 
-## やったことはないが興味があるもの
+## 興味があるもの
+- 静的型付き言語での開発
+  - Rust
+  - TypeScript
+  - Swift
+  - Go
+  - Scala
 - iOSアプリ開発
 - ミドルウェア開発
 
 ## 職務経歴
 
-### 2016/01 - : 株式会社Rebase
+### 2019/03 - : 株式会社maricuru
+職務: ソフトウェアエンジニア
+環境: Ruby(2.x), Ruby on Rails(5.x), Grape(0.19) MySQL(RDS), Redis(ElastiCache), ReactNative, Expo, Redux, ECS, Amazon Elastic Search Service
+
+#### ReactNativeアプリの開発
+- [結婚式準備の相談サイト【maricuru】](https://maricuru.com/pages/app/)のアプリ開発
+  - 既存コードのTypeScript化
+  - パフォーマンスチューニング
+    - `PureComponent`, `react-redux`の`Connect`等を使って`render`回数を減らす
+    - `requestAnimationFrame`での遅延レンダリング
+    - カルーセルでのオンメモリ状態の画像を減らすことでのメモリ使用量の削減
+  - `redux-thunk`を用いてコンポーネントから副作用のあるコードの分離
+
+#### WebAPIの開発
+- 上記アプリのAPI開発
+- パフォーマンスチューニング
+  - 遅いクエリの改善
+    - index追加
+    - クエリ自体の修正
+  - n+1の修正
+  - jbuilderから[procore/blueprinter](https://github.com/procore/blueprinter)への移行
+
+#### インフラ環境の整備
+- 既存インフラのterraform(0.11.11)化
+- cronからECS Scheduled Tasksへの移行
+
+
+### 2016/01 - 2019/02 : 株式会社Rebase
 職務: Webアプリケーションエンジニア
 環境: Ruby(2.x), Ruby on Rails(4.x), PostgreSQL(RDS), Redis(ElastiCache), Webpack, React, Redux, ECS, Scala(2.11), Finagle, Finch, Elastic Beanstalk, Amazon Elastic Search Service
 
@@ -95,7 +135,7 @@
     - Circle CI
     - eslint, stylelintでリント
     - Rspec, capybara等でテスト
-  
+
 #### 検索APIサーバーの開発
 - 主に[検索ページ](https://www.instabase.jp/search)で使われるAPIサーバーの開発
   - Scala, Finagle, Finch
