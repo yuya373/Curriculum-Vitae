@@ -103,6 +103,8 @@
     - クエリ自体の修正
   - n+1の修正
   - jbuilderから[procore/blueprinter](https://github.com/procore/blueprinter)への移行
+  - 遅いAPIにページネーションの導入
+- imgix導入
 
 #### インフラ環境の整備
 - 既存インフラのterraform(0.11.11)化
