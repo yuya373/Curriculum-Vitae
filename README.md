@@ -66,6 +66,7 @@
     - [yuya373/concurrency](https://github.com/yuya373/concurrency)
   - [O'Reilly Japan - Go言語による並行処理](https://www.oreilly.co.jp/books/9784873118468/)
     - [yuya373/monkey](https://github.com/yuya373/monkey)
+  - スクレイピングツール（非公開）
 
 ## 興味があるもの
 - 静的型付き言語での開発
