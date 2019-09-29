@@ -112,7 +112,7 @@
 - cronからECS Scheduled Tasksへの移行
 
 
-### 2016/01 - 2019/02 : 株式会社Rebase
+### 2016/01 - 2019/03 : 株式会社Rebase
 職務: Webアプリケーションエンジニア
 環境: Ruby(2.x), Ruby on Rails(4.x), PostgreSQL(RDS), Redis(ElastiCache), Webpack, React, Redux, ECS, Scala(2.11), Finagle, Finch, Elastic Beanstalk, Amazon Elastic Search Service
 
