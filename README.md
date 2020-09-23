@@ -80,7 +80,7 @@
 
 ## 職務経歴
 
-### 2019/03 - : 株式会社maricuru
+### 2019/03 - 2020/04 : 株式会社maricuru
 職務: ソフトウェアエンジニア
 環境: Ruby(2.x), Ruby on Rails(5.x), Grape(0.19) MySQL(RDS), Redis(ElastiCache), ReactNative, Expo, Redux, ECS, Amazon Elastic Search Service
 
