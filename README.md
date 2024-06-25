@@ -11,8 +11,8 @@
 
 ## スキル
 
-- Ruby (v1.9 ~ v2.x)
-  - Ruby on Rails (v3 ~ v5)
+- Ruby
+  - Ruby on Rails
 - TypeScript
   - React
   - ReactNative
@@ -20,10 +20,10 @@
   - Redux
     - redux-thunk
 - JavaScript
-  - webpack (v1 ~ v4)
+  - webpack
   - babel
   - React
-  - react-router (v3 ~ v4)
+  - react-router
   - Redux
     - redux-saga
   - Immutable.js
@@ -48,12 +48,10 @@
   - Dropboxに保存するメモ帳
     - [yuya373/Note](https://github.com/yuya373/Note)
 - Rust
-  - 実務経験なし
-  - 本やチュートリアルの写経
-    - [yuya373/programming-rust](https://github.com/yuya373/programming-rust)
-    - [yuya373/trpl](https://github.com/yuya373/trpl)
-    - [yuya373/line-chat](https://github.com/yuya373/line-chat)
-    - [yuya373/rust_dns](https://github.com/yuya373/rust_dns)
+  - actix-web
+  - diesel
+  - axum
+  - sqlx
 - Unity, C#
   - 実務経験なし
   - チュートリアル
@@ -79,6 +77,16 @@
 - ミドルウェア開発
 
 ## 職務経歴
+
+### 2020/05 - 2024/07 : 株式会社ペイルド
+職務: ソフトウェアエンジニア
+環境: axum, sqlx, React, TypeScript, AWS等
+
+#### [paild](https://www.paild.io/)の開発
+- ユーザー向け管理画面の開発
+  - サーバーサイド
+  - フロントエンド
+- 会計ソフトとの連携開発
 
 ### 2019/03 - 2020/04 : 株式会社maricuru
 職務: ソフトウェアエンジニア
