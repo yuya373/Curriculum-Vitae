@@ -6,9 +6,9 @@
   "author": "Yuya Minami <yuya373@me.com>",
   "license": "MIT",
   "dependencies": {
-    "markdown-pdf": "^9.0.0"
+    "md-to-pdf": "^5.2.4"
   },
   "scripts": {
-    "build": "markdown-pdf -s styles/gh.css README.md"
+    "build": "md-to-pdf README.md --stylesheet styles/gh.css"
   }
 }
