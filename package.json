@@ -9,6 +9,6 @@
     "md-to-pdf": "^5.2.4"
   },
   "scripts": {
-    "build": "md-to-pdf README.md --stylesheet styles/gh.css"
+    "build": "md-to-pdf README.md --stylesheet styles/gh.css --document-title 'README'"
   }
 }
